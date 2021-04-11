@@ -230,8 +230,10 @@ body {
   vertical-align: middle;
   margin-left: 5px;
 }
-.channel-button {
+.channel-button,
+.recommendation-button {
   cursor: pointer;
+  outline: none;
 }
 .slider-buttons {
   position: absolute;
@@ -241,4 +243,62 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 66px;
+}
+.recommendation {
+  position: relative;
+  margin-top: 25px;
+}
+.recommendation-duration {
+  position: absolute;
+  bottom: 60px;
+  right: 35px;
+}
+.recommendation-title {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #19202c;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+.recommendation-text {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202c;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.recommendation-card {
+  width: 420px;
+}
+.recommendation-thumbnail {
+  width: 420px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+.recommend-buttons {
+  position: absolute;
+  right: 10%;
+  top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 66px;
+}
+.categories-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.categories-text {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202c;
 }

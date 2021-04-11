@@ -8,3 +8,14 @@ const swiper = new Swiper('.channel-slider', {
     prevEl: '.channel-button-prev',
   },
 });
+const swiper1 = new Swiper('.recommendation-slider', {
+  // Optional parameters
+  loop: true,
+  slidesPerView: 3,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.recommendation-button-next',
+    prevEl: '.recommendation-button-prev',
+  },
+});
+
